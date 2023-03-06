@@ -1,0 +1,134 @@
+/*Copyright DEPP © 2017 - Ministère de l'éducation nationale */
+
+
+/*add some style, need to scope (using the typeIdentifier as class prefix) every style declaration to prevent collision */
+
+.qti-customInteraction .abeille .grador {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJsAAAAZCAYAAAFRHmzJAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA7klEQVR42u2aSw7CMAwFY47FZcIKrpVchmsZRaggIT5uscqrmNlkU0VmeLEhqrXWSq21vKP3/vGZiV1JJn1D82Pxvm+Wt6G75sdN3cxGVAIMFxbaLJqprGz+LHLp8dUtzjVrGzGR/lopjtO6enHBjh4l1Pkj1PPB0yZEZgtRqmeTbY5GgjhA3LfixoRAw4KpqvID/XGaKk9XjinSkIY0pCENkIY0pCFtjb8rSCNp/43cNbja5cGzi4MtXNUrOuWEAuMACBsAYQPCBkDYgLABYQMgbLClsPGu5HxwtszZtbOdzFnv6y1Mr56bwNes9QInMb6gYNdq9QAAAABJRU5ErkJggg==');
+    width: 155px;
+    height: 19px;
+    background-position-y: 19px;
+    background-position-x: 0px;
+}
+
+.ui-slider .ui-state-default {
+    background-color: orange;
+}
+
+.qti-customInteraction .abeille .prompt {
+    position: relative;
+}
+
+.qti-customInteraction .abeille .cmdpanel {
+    text-align: center;
+    width: 800px;
+    height: 180px;
+}
+
+.qti-customInteraction .abeille .pesti {
+    margin-left: 89px;
+    width: 350px;
+    float: left;
+    text-align: center;
+}
+
+.qti-customInteraction .abeille .hiddendiv {
+    display: none;
+}
+
+.qti-customInteraction .abeille .icofrelon {
+    display: block;
+    width: 125px;
+    margin-left: 13px;
+}
+
+.qti-customInteraction .abeille .icodanger {
+    display: block;
+    width: 75px;
+    margin-left: 40px;
+}
+
+.qti-customInteraction .abeille .cmdpanel {
+    background: rgb(242, 246, 248);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(242, 246, 248, 1) 0%, rgba(216, 225, 231, 1) 50%, rgba(181, 198, 208, 1) 51%, rgba(224, 239, 249, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(242, 246, 248, 1) 0%, rgba(216, 225, 231, 1) 50%, rgba(181, 198, 208, 1) 51%, rgba(224, 239, 249, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(242, 246, 248, 1) 0%, rgba(216, 225, 231, 1) 50%, rgba(181, 198, 208, 1) 51%, rgba(224, 239, 249, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.qti-customInteraction .abeille .nuisible {
+    display: block;
+    width: 155px;
+    height: 1.5rem;
+    padding: 0;
+    background-color: transparent;
+    -webkit-appearance: auto;
+    -moz-appearance: auto;
+    appearance: auto;
+}
+
+.qti-customInteraction .abeille .consigne {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.qti-customInteraction .abeille .titrepesti {
+    text-align: left;
+    margin-left: 18px;
+}
+
+.qti-customInteraction .abeille .titrefrelon {
+    width: 300px;
+    margin-left: -75px;
+}
+
+.qti-customInteraction .abeille .frelon {
+    float: right;
+    text-align: center;
+    width: 100px;
+    margin-right: 204px;
+}
+
+.qti-customInteraction .abeille .pesticide {
+    margin-top: 25px;
+}
+
+.qti-customInteraction .abeille .frelonslider {
+    margin-top: 16px;
+}
+
+.ui-slider {
+    border: 6px solid #c12a40;
+    border-radius: 2px;
+}
+
+.qti-customInteraction .abeille .ui-slider-tick {
+    background-color: #ccc;
+    width: 1px;
+    height: 10px;
+    margin-top: -5px;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+    margin-top: -10px;
+}
+
+.ui-slider .ui-state-hover {
+    background-color: #ccc!important;
+}
+
+.ui-slider .ui-state-focus {
+    background-color: orange;
+}
+
+.ui-slider .ui-slider-handle {
+    width: 15px;
+    height: 24px;
+    border: 1px black solid;
+    cursor: pointer;
+    padding: 0;
+}
